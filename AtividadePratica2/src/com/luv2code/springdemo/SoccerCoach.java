@@ -8,7 +8,7 @@ public class SoccerCoach implements Coach {
 	private String team;
 	
 	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println("CricketCoach: inside setter method - setFortuneService");
+		System.out.println("SoccerCoach: inside setter method - setFortuneService");
 		this.fortuneService = fortuneService;
 	}
 
@@ -17,7 +17,7 @@ public class SoccerCoach implements Coach {
 	}
 
 	public void setEmailAddress(String emailAddress) {
-		System.out.println("CricketCoach: inside setter method - setEmailAddress");
+		System.out.println("SoccerCoach: inside setter method - setEmailAddress");
 		this.emailAddress = emailAddress;
 	}
 
@@ -26,7 +26,7 @@ public class SoccerCoach implements Coach {
 	}
 
 	public void setTeam(String team) {
-		System.out.println("CricketCoach: inside setter method - setTeam");
+		System.out.println("SoccerCoach: inside setter method - setTeam");
 		this.team = team;
 	}
 
